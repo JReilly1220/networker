@@ -1,0 +1,31 @@
+<% title "Contacts" %>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Phone</th>
+    <th>Creationdate</th>
+    <th>Lastupdatedate</th>
+    <th>Createduser</th>
+    <th>Lastupdateuser</th>
+    <th>Companyassociation</th>
+  </tr>
+  <% for contact in @contacts %>
+    <tr>
+      <td><%= contact.name %></td>
+      <td><%= contact.email %></td>
+      <td><%= contact.phone %></td>
+      <td><%= contact.creationdate %></td>
+      <td><%= contact.lastupdatedate %></td>
+      <td><%= contact.createduser_id %></td>
+      <td><%= contact.lastupdateuser_id %></td>
+      <td><%= contact.companyassociation %></td>
+      <td><%= link_to "Show", contact %></td>
+      <td><%= link_to "Edit", edit_contact_path(contact) %></td>
+      <td><%= link_to "Destroy", contact, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New Contact", new_contact_path %></p>

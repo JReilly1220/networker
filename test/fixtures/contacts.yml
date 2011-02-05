@@ -1,0 +1,19 @@
+one:
+  name: MyString
+  email: MyString
+  phone: MyString
+  creationdate: 2011-01-31 21:38:47
+  lastupdatedate: 2011-01-31 21:38:47
+  createduser_id: 1
+  lastupdateuser_id: 1
+  companyassociation: MyString
+
+two:
+  name: MyString
+  email: MyString
+  phone: MyString
+  creationdate: 2011-01-31 21:38:47
+  lastupdatedate: 2011-01-31 21:38:47
+  createduser_id: 1
+  lastupdateuser_id: 1
+  companyassociation: MyString

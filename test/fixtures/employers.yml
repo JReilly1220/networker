@@ -1,0 +1,19 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  contact_id: 1
+  company_id: 1
+  position: MyString
+  current: false
+  user_id: 1
+  creationddate: 2011-01-31
+  url: MyString
+
+two:
+  contact_id: 1
+  company_id: 1
+  position: MyString
+  current: false
+  user_id: 1
+  creationddate: 2011-01-31
+  url: MyString

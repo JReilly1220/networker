@@ -1,0 +1,48 @@
+<% title "Contact" %>
+
+<p>
+  <strong>Name:</strong>
+  <%= @contact.name %>
+</p>
+<p>
+  <strong>Email:</strong>
+  <%= @contact.email %>
+</p>
+<p>
+  <strong>Phone:</strong>
+  <%= @contact.phone %>
+</p>
+<p>
+  <strong>Creationdate:</strong>
+  <%= @contact.creationdate %>
+</p>
+<p>
+  <strong>Lastupdatedate:</strong>
+  <%= @contact.lastupdatedate %>
+</p>
+<p>
+  <strong>Createduser:</strong>
+  <%= @contact.createduser_id %>
+</p>
+<p>
+  <strong>Lastupdateuser:</strong>
+  <%= @contact.lastupdateuser_id %>
+</p>
+<p>
+  <strong>Companyassociation:</strong>
+  <%= @contact.companyassociation %>
+</p>
+
+<ol>
+  <% for address in @contact.addresses %>
+  <li><%=h address.street1 %></li>
+  <% end %>
+</ol>
+
+<p>
+  <%= link_to "Edit", edit_contact_path(@contact) %> |
+  <%= link_to "Destroy", @contact, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", contacts_path %>
+</p>
+
+

@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  contact_id: 1
+  default: false
+  filename: MyString
+  user_id: 1
+  creationdate: 2011-01-31 21:35:09
+
+two:
+  contact_id: 1
+  default: false
+  filename: MyString
+  user_id: 1
+  creationdate: 2011-01-31 21:35:09
